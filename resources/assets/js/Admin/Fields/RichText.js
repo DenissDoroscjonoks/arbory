@@ -7,7 +7,7 @@ export const CONFIG_EDITOR = {
     allowedContent: true,
     format_tags: 'p;h2;h3',
     toolbar: [['Bold', 'Italic'], ['Format'], ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'], ['Subscript', 'Superscript'], ['NumberedList', 'BulletedList'], ['Link', 'Unlink', 'Anchor', 'Image', 'MediaEmbed'], ['Source', 'Maximize', 'ShowBlocks']],
-    extraPlugins: 'mediaembed',
+    extraPlugins: ['mediaembed', 'imagezoombutton'],
     coreStyles_bold: { element: 'b', overrides: 'strong' },
     coreStyles_italic: { element: 'i', overrides: 'em' }
 };
